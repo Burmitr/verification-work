@@ -7,9 +7,7 @@ for(int i = 0; i < mainArray.Length; i++)
    mainArray[i] = Console.ReadLine();
 }
 Console.WriteLine();
-Console.WriteLine("Исходный массив: ");
-Console.WriteLine(string.Join(" ", mainArray));
-Console.WriteLine();
+Console.WriteLine("Исходный массив: \n" + string.Join(" ", mainArray) + "\n");
 
 void FillResultArray(string[] firstArray, string[] secondArray)
 {
